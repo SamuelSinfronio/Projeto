@@ -1,0 +1,44 @@
+body{
+}
+
+.land{
+    
+    /* background-image: url(../img/wl193.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: blue;
+    background-image: url(https://staticfiles.warthunder.com/upload/image/media/warland/wl193.jpg);
+    
+    height: 100vh;
+    width: 100vw;
+   
+}
+
+
+
+.land__content{
+}
+
+.land__video{
+
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    width: 193.93vh;
+    min-width: 100%;
+    min-height: 51.56vw;
+    transition: opacity .6s ease-in;
+    
+
+}
+
+
+@media(max-width:960px){
+    .land__video{
+        opacity: 0;
+
+      
+    }
+}
